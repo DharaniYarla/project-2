@@ -1,0 +1,32 @@
+button {
+  position: absolute;
+}
+
+#message {
+  display: none;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 2%;
+  box-shadow: inset 0 0 10px black;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.box.green {
+  background-color: green;
+}
+
+body {
+  margin-top: 2%;
+  background-color: black;
+}
